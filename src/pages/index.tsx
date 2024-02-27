@@ -41,13 +41,13 @@ const Home = () => {
     <div className="bg-[#F6F6F6]">
       <Navbar />
       <MaxWidthWrapper>
-        <main className="flex justify-between items-start gap-3 w-full my-20">
+        <main className="flex justify-between items-start gap-4 w-full my-20">
           <UserDetails previousWork={previousWork} userDetail={userDetail} />
-          <section className="flex flex-col items-center w-1/2">
+          <section className="flex-1">
             <PackageList packages={userDetail?.packages} />
 
-            <div className="w-[41%] float-right flex flex-col items-center gap-8">
-              <Button variant="outline" className="bg-[#0014BC] text-white py-4 px-7 text-sm font-normal">{`Contact ${userDetail?.name}`}</Button>
+            <div className="w-full float-right flex flex-col items-center gap-8">
+              <Button variant="outline" className="bg-[#0014BC] text-white py-4 px-7 text-sm font-normal w-[90%]">{`Contact ${userDetail?.name}`}</Button>
               <Guarantee />
             </div>
           </section>
