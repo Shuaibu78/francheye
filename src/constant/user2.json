@@ -1,0 +1,56 @@
+{
+  "id": "00002",
+  "isVerified": false,
+  "name": "Ervin Howell",
+  "username": "Antonette",
+  "industries": [
+    "Consumer goods",
+    "Health, Wellness, and Fitness",
+    "Home"
+  ],
+  "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin in diam augue. Aenean imperdiet ante at massa tristique consectetur. Curabitur porta pharetra libero, ut faucibus.",
+  "languages": [
+    "Japanese",
+    "English",
+    "Spanish"
+  ],
+  "contentType": "Faceless Content",
+  "packages": [
+    {
+      "title": "Package 1",
+      "contentType": "video",
+      "packageType": "ugc",
+      "price": 299.99,
+      "services": [
+        "Editing",
+        "Brief Creation",
+        "Voiceover",
+        "Raw Footage"
+      ]
+    },
+    {
+      "title": "Package 2",
+      "contentType": "photo",
+      "packageType": "ugc",
+      "price": 1399.99,
+      "services": [
+        "Editing",
+        "Brief Creation",
+        "Voiceover",
+        "Raw Footage"
+      ]
+    },
+    {
+      "title": "Package 3",
+      "contentType": "video",
+      "packageType": "affiliate",
+      "price": 899.99,
+      "services": [
+        "Editing",
+        "Brief Creation",
+        "Voiceover",
+        "Raw Footage"
+      ]
+    }
+  ]
+}

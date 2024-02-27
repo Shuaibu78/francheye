@@ -1,0 +1,80 @@
+{
+  "id": "00001",
+  "isVerified": true,
+  "name": "Leanne Graham",
+  "username": "Bret",
+  "industries": [
+    "Consumer goods",
+    "Health, Wellness, and Fitness",
+    "Home"
+  ],
+  "country": "United States",
+  "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin in diam augue. Aenean imperdiet ante at massa tristique consectetur. Curabitur porta pharetra libero, ut faucibus.",
+  "languages": [
+    "French",
+    "English",
+    "Spanish"
+  ],
+  "contentType": "Face Content",
+  "accounts": [
+    {
+      "platform": "tiktok",
+      "username": "bret_tok",
+      "views": 12800,
+      "likes": 487,
+      "followers": 82
+    },
+    {
+      "platform": "tiktok",
+      "username": "bret_bts",
+      "views": 12800,
+      "likes": 487,
+      "followers": 82
+    },
+    {
+      "platform": "youtube",
+      "username": "bret_yt",
+      "views": 12800,
+      "likes": 487,
+      "followers": 82
+    }
+  ],
+  "packages": [
+    {
+      "title": "Package 1",
+      "contentType": "video",
+      "packageType": "ugc",
+      "price": 299.99,
+      "services": [
+        "Editing",
+        "Brief Creation",
+        "Voiceover",
+        "Raw Footage"
+      ]
+    },
+    {
+      "title": "Package 2",
+      "contentType": "photo",
+      "packageType": "ugc",
+      "price": 1399.99,
+      "services": [
+        "Editing",
+        "Brief Creation",
+        "Voiceover",
+        "Raw Footage"
+      ]
+    },
+    {
+      "title": "Package 3",
+      "contentType": "video",
+      "packageType": "affiliate",
+      "price": 899.99,
+      "services": [
+        "Editing",
+        "Brief Creation",
+        "Voiceover",
+        "Raw Footage"
+      ]
+    }
+  ]
+}
