@@ -6,6 +6,8 @@ import axios from "axios";
 import { IPhoto } from "@/interface";
 import userDetail from "../constant/user1.json";
 import PackageList from "../components/PackageList";
+import { Button } from "../components/ui/button";
+import Guarantee from "../components/Guarantee";
 
 function fetchData() {
   return axios.get("https://jsonplaceholder.typicode.com/photos", {
@@ -43,6 +45,11 @@ const Home = () => {
           <UserDetails previousWork={previousWork} userDetail={userDetail} />
           <section className="flex flex-col items-center w-1/2">
             <PackageList packages={userDetail?.packages} />
+
+            <div className="w-[41%] float-right flex flex-col items-center gap-8">
+              <Button variant="outline" className="bg-[#0014BC] text-white py-4 px-7 text-sm font-normal">{`Contact ${userDetail?.name}`}</Button>
+              <Guarantee />
+            </div>
           </section>
         </main>
       </MaxWidthWrapper>
